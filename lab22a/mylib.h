@@ -1,0 +1,12 @@
+#ifndef MYLIB_H_
+#define MYLIB_H_
+
+#include <stdlib.h>
+#include <stdio.h>
+#include <stddef.h>
+
+extern int getword(char *s, int limit, FILE *stream);
+extern void *emalloc(size_t s);
+extern void *erealloc(void *p, size_t s);
+
+#endif

@@ -1,0 +1,29 @@
+/* Goes inside the if statement */
+
+tablesize = ptablesize;
+
+while(isPrime(tablesize)){
+        tablesize++;
+}
+printf("TableSize : %d\n", tablesize
+
+/* Goes inside case 't'  */
+
+ptablesize = atoi(optarg);
+
+/* Feild to declare */
+
+int tablesize = 113;
+int *ptablesize;
+
+/* Is prime function that checks if 'i' is a prime number or not */
+
+int isPrime(int i){
+    int j;
+    for(j = 2; j < i; j++){
+          if(i % j == 0){
+               return 1;
+          } 
+    }
+    return 0;
+}

@@ -1,0 +1,16 @@
+int i = tablesize;
+
+while(prime(i)){
+i++;
+}
+
+/* Function that check to see if i is a prime number or not */
+int prime(int i){
+int j;
+
+for(j = 2; j < i; j++){
+if(i % j == 0){
+return 0;
+} 
+}
+return 1;

@@ -1,0 +1,14 @@
+
+    int i;
+
+    printf(" Pos   Freq   Stats  Word\n");
+    
+    printf("------------------------------------------------------\n");
+    
+    for(i = 0; i < h->capacity; i++) {
+        printf(, "\%5d \%5d \%5d   \%s\n", i,h->freq[i], h->stats[i],h->keys[i]);
+    }
+
+
+
+
